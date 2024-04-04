@@ -7,6 +7,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Foodie",
+    description:
+      "Projeto está sendo desenvolvido em Next.js e usando a plataforma clerk como backend. Um website aonde pessoas podem encontrar restaurantes na Irlanda.",
+    image: "/images/projects/foodie.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/walmir-marques/food-delivery-app",
+    previewUrl: "",
+  },
+  {
+    id: 2,
     title: "React Store Clone",
     description:
       "Projeto desenvolvido em react e usado conceitos componentes, hooks, ContextApi, fetch e iteração com Apis.",
@@ -16,7 +26,7 @@ const projectsData = [
     previewUrl: "https://mercadolivre-api-app.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "IMC Calculator",
     description:
       "Nesse projeto foram usados conceitos básicos de react como, components, useState e props.",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "https://imc-calculator-app-nine.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather Forecast",
     description:
       "Projeto desenvolvido em react. Foram usados conceitos como Componenets, Apis, Fetch, UseState. Esse projeto tem como intuito mostrar a previsão do tempo de acordo com a cidade digitada pelo usuário.",
